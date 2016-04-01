@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    -webkit-backface-visibility: hidden;
+	
+}
+
+@font-face {
+    font-family: nysubway;
+    src: url(assets/nysub.ttf);
+}
+
+#stopwatch{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  /* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+  		
+}
+
+
+#time td{
+	font-family: nysubway;
+	color: red;
+	padding: 0.1em;
+	overflow: hidden;
+	text-align: right;
+	font-size: 12vw;
+	min-width: 250px;
+    
+}
+table{
+	
+	table-layout: fixed;
+}
+
+
+#buttons {
+	font-family: nysubway;
+	position: relative;
+	text-align: center;
+
+	 	
+}
+
+.myButton {
+	font-family: nysubway;
+	
+	margin-left: 1vw;
+	font-size: 1vw;
+	color:red;
+	background-color: black;
+	border-radius: 20%;
+	
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton:hover{
+	background-color: gray;
+
+}
